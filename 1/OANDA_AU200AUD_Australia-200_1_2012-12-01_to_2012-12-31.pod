@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "AU200_AUD",
+  "granularity": "M1",
+  "chunk_start": "2012-12-01",
+  "chunk_end": "2012-12-31",
+  "parquet_file": "OANDA_AU200AUD_Australia-200_1_2012-12-01_to_2012-12-31.parquet",
+  "data_file": "OANDA_AU200AUD_Australia-200_1_2012-12-01_to_2012-12-31.parquet",
+  "row_count": 4214,
+  "first_candle": {
+    "time": 1354488600,
+    "Time": "2012-12-02T22:50:00.000000000Z",
+    "open": 4517.1,
+    "high": 4519.1,
+    "low": 4515.1,
+    "close": 4515.1,
+    "volume": 12
+  },
+  "last_candle": {
+    "time": 1356909660,
+    "Time": "2012-12-30T23:21:00.000000000Z",
+    "open": 4652.2,
+    "high": 4652.2,
+    "low": 4652.2,
+    "close": 4652.2,
+    "volume": 1
+  },
+  "csv_file": "OANDA_AU200AUD_Australia-200_1_2012-12-01_to_2012-12-31.parquet",
+  "csv_row_count": 4214,
+  "csv_first_candle": {
+    "time": 1354488600,
+    "Time": "2012-12-02T22:50:00.000000000Z",
+    "open": 4517.1,
+    "high": 4519.1,
+    "low": 4515.1,
+    "close": 4515.1,
+    "volume": 12
+  },
+  "csv_last_candle": {
+    "time": 1356909660,
+    "Time": "2012-12-30T23:21:00.000000000Z",
+    "open": 4652.2,
+    "high": 4652.2,
+    "low": 4652.2,
+    "close": 4652.2,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T01:30:23.000000000Z",
+  "generated_at": "2026-10-16T01:30:23.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2376,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2012-11-30T19:30:00Z",
+        "to": "2012-12-04T06:50:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-04T06:50:00Z",
+        "to": "2012-12-07T18:10:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-07T18:10:00Z",
+        "to": "2012-12-11T05:30:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-11T05:30:00Z",
+        "to": "2012-12-14T16:50:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-14T16:50:00Z",
+        "to": "2012-12-18T04:10:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-18T04:10:00Z",
+        "to": "2012-12-21T15:30:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-21T15:30:00Z",
+        "to": "2012-12-25T02:50:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-25T02:50:00Z",
+        "to": "2012-12-28T14:10:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2012-12-28T14:10:00Z",
+        "to": "2013-01-01T01:30:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
